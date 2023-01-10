@@ -1,6 +1,6 @@
 - [Curso Alura html5-css3-avancando-css](https://cursos.alura.com.br/course/html5-css3-avancando-css)
 # "algumas anotações minhas sobre o curso para estudos." 
-## Pseudo-elementos do css 
+## Pseudo-elementos do css3:
 
 
 Evoluiremos ainda mais em nosso entendimento do CSS, e um dos tópicos do nosso estudo serão os já referidos pseudo-elementos, que não existem no código HTML e são criados via CSS.
