@@ -91,9 +91,6 @@ footer {
 
 
 }
-main {
-    
-}
 form {
    margin: 40px 0;
 
@@ -159,12 +156,12 @@ td, th {
     margin: 0 0 1em;        /*no nosso caso temos uma fonte base de 15px então a fonte do titulo principal vai ser 30 px */
     clear: left;            /* Comando para limpar o "float left" que aplicamos do utensilios pois esta afetando outras paginas*/
     
-}
-.titulo-principal:first-letter {       /* a Pseudo-classe (first-letter) seleciona a primeira letra de um paragrafro nesse caso
-                                         dentro do titulo principal no caso a primeira letra passa a ser negrito */
-    font-weight: bold;                  /* ou poderiamaos usar por exemplo (p:first-line font-style: italic;) para que a primeira linha
-                                        de todos os paragrafos fiquem em italico */
-}
+}                                            /* Mantive essa sessão, só para estudos, pois não vamos usar mais
+/*.titulo-principal:first-letter {           /* a Pseudo-classe (first-letter) seleciona a primeira letra de um paragrafro nesse caso
+                                             dentro do titulo principal no caso a primeira letra passa a ser negrito */
+    /*font-weight: bold;                     /* ou poderiamaos usar por exemplo (p:first-line font-style: italic;) para que a primeira linha
+                                             de todos os paragrafos fiquem em italico */
+
 .principal {
     padding: 3em 0;
     background: #fefefe;
@@ -234,6 +231,9 @@ td, th {
                                     /* Poderiamos usar também o "last-child" para que o último item da lista seja marcado */
                                     /* Ainda podemos usar "nth-child(4)" no caso o "4" se refere ao quarto item da lista */
                                     /* Se usarmos "nth-child(2n)" com o "n" atribuido ao numero "2" serão afetados os numeros pares da lista */
+}
+.itens:before {                     /* Usamos essa pseudo-classe "before and after" para adicionar um item antes ou depois */
+    content: "★";
 }
 .imagem-beneficios {                
     width: 60%;
