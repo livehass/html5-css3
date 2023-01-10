@@ -36,6 +36,5 @@ Para realizar isso, utilizaremos o @media, com o valor do tipo de tela screen e 
     }
 }
 ```
-Ao regarregarmos a página veremos a modificação aplicada.
 ![exemplo de como fica](https://caelum-online-public.s3.amazonaws.com/1310-html5-css3-parte4/06/6_1_4_tela+vermelha.png)
 

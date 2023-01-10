@@ -107,6 +107,7 @@ Para fechar o tópico de sombras, por último aprenderemos a inserir sombras em 
 }
 ```
 ![exemplo de como fica](https://caelum-online-public.s3.amazonaws.com/1310-html5-css3-parte4/05/5_2_6_texto+vermelho.png)
+[Proxima pagina- Opacidade em cores RGB](https://github.com/livehass/html5-css3/blob/main/Adaptando-nosso-codigo-para-mobile.md)
 
 
 
