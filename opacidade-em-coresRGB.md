@@ -1,4 +1,5 @@
-#gerar opacidade em nossos elementos. A opacidade é uma camada a mais posta sobre a imagem, como um insulfilme para a janela de carro, que oferece níveis diferentes de proteção contra o Sol.
+# gerar opacidade em nossos elementos:
+A opacidade é uma camada a mais posta sobre a imagem, como um insulfilme para a janela de carro, que oferece níveis diferentes de proteção contra o Sol.
 
 Utilizaremos a imagem da sessão "Benefícios" para compreendermos o funcionamento da ferramenta de opacidade no HTML. Em index.css , utilizaremos a propriedade opacity que pode ter valores entre 0 a 1, sendo que 0 o elemento estará totalmente oculto. Se quisermos exibir a imagem com opacidade de 30%, ajustaremos o valor da propriedade para 0.3.
 ```scss
