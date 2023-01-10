@@ -1,0 +1,249 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background: #bbbbbb;
+    padding: 20px;
+    
+    
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+
+}
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+
+}
+.produtos li:hover {
+    border-color: #c78c19;
+} 
+.produtos li:active {
+    border-color: #088c19;
+  
+}
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.produto-descricao {
+    font-size: 18px;
+    
+}
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+
+
+}
+main {
+    
+}
+form {
+   margin: 40px 0;
+
+}
+form label, form legend{
+    display:block;
+    font-size: 20px;
+    margin:0 0 10px;
+
+}
+.input-padrao{
+    display:block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+
+
+}
+.checkbox {
+    margin: 20px 0;            /* tamanho da margem do item e quanto ela extende*/
+}
+.enviar {
+    width: 40%;                /* tamanho de 40% da tela*/
+    padding: 15px 0;           /* cresce 15px os itens dentro da borda*/ 
+    background: orange;      /* cor do botão inicial laranja*/
+    color: white;            /* cor do texto do botão branco*/
+    font-weight: bold;         /* fonte do botão fica em negrito */
+    font-size: 18px;           /* tamanho da fonte cresce em 18 px*/
+    border: none;              /* remove a borda do botão*/
+    border-radius: 5px;        /* borda do botão cresce 15px */
+    transition: 1s all;        /* transição entre a cor do botão, e os segundos dessa transição, adicionado depois o "all" adiciona a transição a todos os itens*/
+    cursor: pointer;           /* quando o cursor por cima do objeto */
+
+}
+.enviar:hover {
+    background: darkorange;            /* cor do botão troca para laranja escuro ao passar mouse */
+    transform: scale(1.2); /* quando mouse passa por cima do item cresce 20% calculo feito para 1.2 */
+}
+
+table {
+    margin: 20px 0 40px;
+
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;          /* padding é o espaçamento interno da tabela onde 8px é tamanho para cima e para baixo e 15px é a largura */
+
+}
+/* css da pagina inicial */
+.banner {
+    width: 100%;
+
+}
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;         /* <================= 2em usamos quando queremos que a fonte tenha o dobro dos pixels da base*/ 
+    margin: 0 0 1em;        /*no nosso caso temos uma fonte base de 15px então a fonte do titulo principal vai ser 30 px */
+    clear: left;            /* Comando para limpar o "float left" que aplicamos do utensilios pois esta afetando outras paginas*/
+    
+}
+.titulo-principal:first-letter {       /* a Pseudo-classe (first-letter) seleciona a primeira letra de um paragrafro nesse caso
+                                         dentro do titulo principal no caso a primeira letra passa a ser negrito */
+    font-weight: bold;                  /* ou poderiamaos usar por exemplo (p:first-line font-style: italic;) para que a primeira linha
+                                        de todos os paragrafos fiquem em italico */
+}
+.principal {
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+.principal p {
+    margin:0 0 1em;
+
+}
+.principal strong {
+    font-weight: bold;              /* Contorno da fonte negrito*/
+}
+.principal em{
+    font-style: italic;             /* Estilo da fonte italico*/
+
+}
+.utensilios{
+    width: 120px;
+    float: left;                    /* "Float: left;  float:right" Servem para que o elemento se detaque na tela, deixe de*/
+    margin: 0 20px 20px 0;          /* ocupar o espaço em que estava para que outros elmentos possam se posicionar ao redor dele;*/
+                                    
+                                    /*1=0    A primeira propriedade da margin que no nosso caso é "0" é para "CIMA" 
+                                    2=20px A segunda propriedade que no caso é "20px" é para "DIREIRA"
+                                    3=20px A terceira "20px" é para "BAIXO"
+                                    4=0    A quarta posição da nossa margin é "ESQUERDA"*/
+}
+.mapa {
+    padding: 3em 0;                 /* Espaçamento interno de 3m para cima e para baixo e 0 para os lados */
+    background: linear-gradient(#fefefe, #888888); 
+                                    
+                                    /*Além do degradê linear(linear-gradient) temos ainda a opção radial(radial-gradient),*/ 
+                                    
+                                    /*que organiza a transição de cores de maneira circular. Nosso site terá uma gradação de cinza linear */
+                                    /*Como estamos utilizando quatro cores no exemplo, há valores subentendidos em cada uma delas,*/ 
+                                    
+                                    /*Podemos utilizar 45deg ou mais para ter o começo do gradient da forma que queremos*/
+                                    /*na sequência: 0%, 25%, 50%, e 75% para a última cor da sequência.*/ 
+                                    /*Mas podemos manipular esses valores de acordo com nosso interesse,*/ 
+                                    /*como definir que orange, por exemplo, terá o valor de 50%.*/
+}
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+} 
+.beneficios {                       /* chamando a sessão beneficios, adicionando um padding teremos um espaçamento maior*/
+    padding: 3em 0;
+    background: #888888;
+
+}
+.conteudo-beneficios {
+    width: 640px;                   /*tamanho da lista e dos beneficios principais em 640px */
+    margin: 0 auto;                 /* Margem espaçamento para a esquerda automatico */
+}
+.lista-beneficios {
+    width: 40%;                     /* Lista terá 40% de largura em relação ao tamanho da tela */
+    display: inline-block;          /* Um adendo o inline-block interpreta ate mesmos os espaços vazios no html */
+    vertical-align: top;            /* Alinha minha lista, com referencia na parte de cima ou seja ao topo */
+
+}
+.itens {                            /* Chamamos a classe itens */
+    line-height: 1.5;               /* Para darmos mais espaçamento entre as linhas usamos o "line-height" */
+                                    /* A altura da linha é proporcinal ao tamanho da fonte que é "1" mas optamos por "1.5" */
+}
+.itens:first-child{                 /* Aqui estamos usando uma "Pseudo-classe" estamos chamando o primeiro item da lista de itens*/
+     font-weight: bold;             /* pois queremos que só o primeiro paragrafo dessa lista seja em "negrito" */
+                                    /* Poderiamos usar também o "last-child" para que o último item da lista seja marcado */
+                                    /* Ainda podemos usar "nth-child(4)" no caso o "4" se refere ao quarto item da lista */
+                                    /* Se usarmos "nth-child(2n)" com o "n" atribuido ao numero "2" serão afetados os numeros pares da lista */
+}
+.imagem-beneficios {                
+    width: 60%;
+    
+}
+.mapa p {
+    margin: 0 0 2em;                 /* Espaçamento interno do paragrafo dentro da classe mapa, para baixo de "2em"*/ 
+    text-align: center;              /* Alinha o texto do mapa ao centro */ 
+}
+.video {
+    width: 560px;                    /* Estabelece o tamanho do video que aparecerá na tela */
+    margin: 2em auto;                /* Espaçamento interno cresce 2em para cima e para baixo e automatico nas laterais*/
+}
