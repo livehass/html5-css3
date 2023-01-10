@@ -155,7 +155,7 @@ td, th {
     font-size: 2em;         /* <================= 2em usamos quando queremos que a fonte tenha o dobro dos pixels da base*/ 
     margin: 0 0 1em;        /*no nosso caso temos uma fonte base de 15px então a fonte do titulo principal vai ser 30 px */
     clear: left;            /* Comando para limpar o "float left" que aplicamos do utensilios pois esta afetando outras paginas*/
-    text-shadow: 2px 2px #ff0000;          /*Cria uma sombra para o texto */
+    
 }                                            /* Mantive essa sessão, só para estudos, pois não vamos usar mais
 /*.titulo-principal:first-letter {           /* a Pseudo-classe (first-letter) seleciona a primeira letra de um paragrafro nesse caso
                                              dentro do titulo principal no caso a primeira letra passa a ser negrito */
@@ -255,4 +255,10 @@ td, th {
 .video {
     width: 560px;                    /* Estabelece o tamanho do video que aparecerá na tela */
     margin: 2em auto;                /* Espaçamento interno cresce 2em para cima e para baixo e automatico nas laterais*/
+}
+
+@media screen and (max-width:480px){
+    body{
+        background: red;
+    }
 }
