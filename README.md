@@ -82,3 +82,5 @@ No CSS podemos, inclusive, excluir itens específicos. Se quisermos excluir todo
 }
 ```
 A exclusão é um elemento poderoso no CSS, principalmente quando realizamos manutenção em algum código que já existe e que não devemos modificar tanto o HTML.
+
+[Proxima pagina- Calculos basicos em css](https://github.com/livehass/html5-css3/blob/main/calculosbasicoscss.md)
