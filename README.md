@@ -1,4 +1,4 @@
-- [CURSO ALURA HTML5-CSS3](https://cursos.alura.com.br/course/html5-css3-avancando-css)
+- [Curso Alura html5-css3-avancando-css](https://cursos.alura.com.br/course/html5-css3-avancando-css)
 # "algumas anotações minhas sobre o curso para estudos." 
 ## Pseudo-elementos do css 
 
