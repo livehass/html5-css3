@@ -46,3 +46,4 @@ Com CSS 3, podemos utilizar mais uma camada - a de opacidade, chamada alfa - nas
 }
 ```
 Esse recurso pode ser utilizado em todas as cores: de fundo, texto, borda e assim por diante.
+[Proxima pagina- Opacidade em cores RGB](https://github.com/livehass/html5-css3/blob/main/uso-de-sombra-no-css.md)
