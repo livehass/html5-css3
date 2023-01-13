@@ -1,0 +1,141 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background: #bbbbbb;
+    padding: 20px;
+    
+    
+}
+main {
+    margin: 20px 20px 20px 30%;
+    font-weight: bold;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+
+}
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+.copyright {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 20px 0 0;
+
+
+}
+select {
+    margin: 1px 5px 1px 1px;
+    width: 40%;
+    padding: 15px 0;
+    background: #0471d6;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    text-align: center;
+}
+select:hover{
+    background: darkslateblue;            
+    transform: scale(1.2); 
+}
+form {
+   margin: 40px 0;
+   width: 100%;
+
+}
+form label, form legend{
+    display:block;
+    font-size: 20px;
+    margin:10 10px 10px;
+
+}
+
+.input-padrao{
+    display:block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+
+
+}
+.checkbox {
+    margin: 20px 0;            /* tamanho da margem do item e quanto ela extende*/
+}
+.enviar {
+    width: 40%;                /* tamanho de 40% da tela*/
+    padding: 15px 0;           /* cresce 15px os itens dentro da borda*/ 
+    background: #0471d6;      /* cor do botão inicial laranja*/
+    color: white;            /* cor do texto do botão branco*/
+    font-weight: bold;         /* fonte do botão fica em negrito */
+    font-size: 18px;           /* tamanho da fonte cresce em 18 px*/
+    border: none;              /* remove a borda do botão*/
+    border-radius: 5px;        /* borda do botão cresce 15px */
+    transition: 1s all;        /* transição entre a cor do botão, e os segundos dessa transição, adicionado depois o "all" adiciona a transição a todos os itens*/
+    cursor: pointer;           /* quando o cursor por cima do objeto */
+
+}
+.enviar:hover {
+    background: darkslateblue;            /* cor do botão troca para laranja escuro ao passar mouse */
+    transform: scale(1.2);                  /* quando mouse passa por cima do item cresce 20% calculo feito para 1.2 */
+}
+
+table {
+    margin: 20px 0 40px;
+
+}
+
+
+
+thead {
+    background: #070707;
+    color: white;
+    font-weight: bold;
+    margin: 5px 5px 5px 20%;
+    text-align: center;
+}
+tr:first-child {
+    background: #000000;
+    color: #ffffff;
+    
+
+}
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px; 
+                                 /* padding é o espaçamento interno da tabela onde 8px é tamanho para cima e para baixo e 15px é a largura */
+
+}
+
+

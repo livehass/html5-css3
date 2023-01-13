@@ -257,8 +257,20 @@ td, th {
     margin: 2em auto;                /* Espaçamento interno cresce 2em para cima e para baixo e automatico nas laterais*/
 }
 
-@media screen and (max-width:480px){
-    body{
-        background: red;
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
     }
 }
